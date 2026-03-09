@@ -1,0 +1,89 @@
+body{
+font-family:Arial;
+margin:0;
+background:#0f172a;
+color:white;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 60px;
+background:#020617;
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
+color:#ff6b35;
+}
+
+nav a{
+margin:0 15px;
+text-decoration:none;
+color:white;
+}
+
+.demo{
+background:#ff6b35;
+border:none;
+padding:10px 20px;
+border-radius:6px;
+color:white;
+}
+
+.hero{
+text-align:center;
+padding:120px 20px;
+}
+
+.hero h1{
+font-size:48px;
+}
+
+.primary{
+background:#ff6b35;
+border:none;
+padding:15px 30px;
+border-radius:8px;
+color:white;
+font-size:16px;
+}
+
+.secondary{
+background:transparent;
+border:1px solid white;
+padding:15px 30px;
+border-radius:8px;
+color:white;
+}
+
+.features{
+padding:80px;
+text-align:center;
+}
+
+.feature-grid{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:30px;
+margin-top:40px;
+}
+
+.card{
+background:#1e293b;
+padding:30px;
+border-radius:10px;
+}
+
+.cta{
+text-align:center;
+padding:100px;
+background:#020617;
+}
+
+footer{
+text-align:center;
+padding:30px;
+}
